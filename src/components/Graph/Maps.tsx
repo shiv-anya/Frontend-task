@@ -11,7 +11,7 @@ const Maps = () => {
     console.log(data)
     return (
         <div>
-            <h1 className="text-center text-xl my-5 text-blue-500">Covid Cases Country Wise</h1>
+            <h1 className="text-center text-xl text-blue-500">Covid Cases Country Wise</h1>
             <MapContainer center={[30, 0]} zoom={3} scrollWheelZoom={false}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 {data.map((location) => (
