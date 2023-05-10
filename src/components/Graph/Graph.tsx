@@ -29,7 +29,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Chart.js Line Chart',
+      text: 'Covid Cases Line Graph',
     },
   },
 };
@@ -96,6 +96,6 @@ const Graph = () => {
               })
         })
     },[])
-  return <Line options={options} data={data} className='ml-auto mr-auto mt-10'/>;
+  return <Line options={options} data={data} className='ml-auto mr-auto my-10 w-full'/>;
 }
 export default Graph;
