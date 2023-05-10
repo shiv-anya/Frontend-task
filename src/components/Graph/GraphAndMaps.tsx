@@ -8,7 +8,7 @@ const GraphAndMaps = () => {
     <div className="w-5/6 fixed right-0 h-full overflow-y-scroll scroll-smooth pb-56">
             <div><Stats/></div>
             <div><Graph /></div>
-            <div className="h-96 w-96"><Maps/></div>
+            <div><Maps/></div>
     </div>
 </Fragment>
 }

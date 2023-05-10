@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { MapContainer, TileLayer, CircleMarker, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 const Maps = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
